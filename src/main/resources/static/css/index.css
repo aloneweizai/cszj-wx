@@ -1,0 +1,184 @@
+.avatar {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.mini-avatar {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.nickname {
+    font-weight: normal;
+}
+
+.wxid {
+
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+
+.icon-qrcode {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/qrcode.png");
+    background-size: cover;
+}
+
+.icon-bangbang {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/bangbang.png");
+    background-size: cover;
+}
+
+.icon-message {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/message.png");
+    background-size: cover;
+}
+
+.icon-enterprise {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/enterprise.png");
+    background-size: cover;
+}
+
+.icon-order {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/order.png");
+    background-size: cover;
+}
+
+.icon-invoice {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/invoice.png");
+    background-size: cover;
+}
+
+.icon-smrz {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/smrz.png");
+    background-size: cover;
+}
+
+.icon-points {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/points.png");
+    background-size: cover;
+}
+
+.icon-exp {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/exp.png");
+    background-size: cover;
+}
+
+.icon-setting {
+    composes: icon;
+    margin-right: 10px;
+	display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background: url("../images/icon/setting.png");
+    background-size: cover;
+}
+
+.icon-tax {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    background: url("../images/icon/tax.png");
+    background-size: cover;
+}
+
+.icon-activity {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    background: url("../images/icon/activity.png");
+    background-size: cover;
+}
+
+.icon-profile {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    background: url("../images/icon/profile.png");
+    background-size: cover;
+}
+.weui-bar__item--on > .weui-tabbar__icon > .icon-tax{
+    background: url("../images/icon/tax_selected.png");
+    background-size: cover;
+}
+
+.weui-bar__item--on > .weui-tabbar__icon > .icon-activity {
+    background: url("../images/icon/activity_selected.png");
+    background-size: cover;
+}
+
+.weui-bar__item--on > .weui-tabbar__icon > .icon-profile {
+    background: url("../images/icon/profile_selected.png");
+    background-size: cover;
+}
